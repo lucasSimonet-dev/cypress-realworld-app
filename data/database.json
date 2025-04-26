@@ -74,6 +74,61 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "jbqlq5o30",
+      "uuid": "27fbb1e6-7dda-4667-b41f-ae6816eaa7ef",
+      "firstName": "aaaaa",
+      "lastName": "aaaaa",
+      "username": "aaaaaa",
+      "password": "$2a$10$l4W3hYVO1fs.ZC6Be27zT.aZMFQBqqmJAwgKui2DPCtLHNOOGrawO",
+      "balance": 0,
+      "createdAt": "2025-04-26T03:35:36.629Z",
+      "modifiedAt": "2025-04-26T03:35:36.629Z"
+    },
+    {
+      "id": "jD2981zgk",
+      "uuid": "7b2c64bd-37eb-436b-b31c-846e5b5f407d",
+      "firstName": "aaaaa",
+      "lastName": "aaaaa",
+      "username": "aaaaa",
+      "password": "$2a$10$ICUZfqunTgAVZFVi.FE3OOKfNxWHFu9liF2thEbbwmDgSxh.m/qS2",
+      "balance": 0,
+      "createdAt": "2025-04-26T03:36:00.936Z",
+      "modifiedAt": "2025-04-26T03:36:00.936Z"
+    },
+    {
+      "id": "OlRrjHkP4",
+      "uuid": "a40f3239-a10c-4662-80c5-03480e437f3e",
+      "firstName": "aaaa",
+      "lastName": "aaaa",
+      "username": "aaaa",
+      "password": "$2a$10$zLUKxOj3tVDWEjHP8X3svOLb/gxnX9FTZYuCUSVgMbzm0Whfz6o3C",
+      "balance": 0,
+      "createdAt": "2025-04-26T03:36:20.531Z",
+      "modifiedAt": "2025-04-26T03:36:20.531Z"
+    },
+    {
+      "id": "7bxjTxWH5",
+      "uuid": "0fd72426-e3b9-4601-a761-e264490a7a84",
+      "firstName": "aaaaa",
+      "lastName": "aaaaa",
+      "username": "aaaaa",
+      "password": "$2a$10$8LeJJZny23ZB48z980Fq.eNx2i4zWEW3t4uPBMEEDeMmatn.kjMfm",
+      "balance": 0,
+      "createdAt": "2025-04-26T03:37:31.544Z",
+      "modifiedAt": "2025-04-26T03:37:31.544Z"
+    },
+    {
+      "id": "uw_Fhkl3P",
+      "uuid": "bd9dc3df-78c6-452f-b771-8ded3cb0dfc1",
+      "firstName": "aaaa",
+      "lastName": "qweqwewq",
+      "username": "qwewqeqw",
+      "password": "$2a$10$BmhTqA/kNRe8uyRLbo0lduvsi9e9i0rO4PlsBttQrAx.IT/o26KRi",
+      "balance": 0,
+      "createdAt": "2025-04-26T03:38:13.937Z",
+      "modifiedAt": "2025-04-26T03:38:13.937Z"
     }
   ],
   "contacts": [
@@ -253,6 +308,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "z3VgKeHby",
+      "uuid": "743da85e-b114-4d84-93ad-eac3849dba0f",
+      "userId": "OlRrjHkP4",
+      "bankName": "12321312321312",
+      "accountNumber": "111111111111",
+      "routingNumber": "111111111",
+      "isDeleted": false,
+      "createdAt": "2025-04-26T03:37:00.575Z",
+      "modifiedAt": "2025-04-26T03:37:00.575Z"
     }
   ],
   "transactions": [
