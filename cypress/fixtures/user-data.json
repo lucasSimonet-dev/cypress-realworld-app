@@ -6,6 +6,20 @@
   "userSucess": {
     "username":"Heath93",
     "password":"s3cret"
+  },
+  "RegisterSuccess": {
+    "firstName": "Lucas",
+    "lastName": "Simonet",
+    "username": "lucas123",
+    "password": "senha@123",
+    "confirmPassword": "senha@123"
+  },
+  "RegisterFail": {
+    "firstName": "Lucass",
+    "lastName": "Simonett",
+    "username": "lucas1233",
+    "password": "senha@123",
+    "confirmPassword": "senha@12"
   }
 
 }

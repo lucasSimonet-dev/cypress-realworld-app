@@ -14,9 +14,13 @@ class RegisterPage {
         return selectors;
     }
     LoginPage = "http://localhost:3000/";
-    confirmSignUpPage =  "http://localhost:3000/signup";
 
-    registerNewUserSucess(firstname, lastname, username, password, confirmpassword, signbutton) {
+    acessRegisterPage() {
+        cy.visit('localhost:3000/signup');
+        cy.url().should('include', '/signup'); 
+    }
+    
+    registerNewUserSucess(firstname, lastname, username, password, confirmPassword, signbutton) {
         const selectors = this.selectorList();
 
     
@@ -27,6 +31,18 @@ class RegisterPage {
         cy.get(selectors.fieldConfirmPassword).type(confirmPassword);
         cy.get(selectors.signUpBotton).click();
     }
+
+    checkSignUpButtonVisibility(){
+        const selectors = this.selectorList();
+        cy.get(selectors.signUpBotton).should('be.visible');
+    }
+
+    checkRegisterSuccess() {
+        cy.visit("http://localhost:3000/signin");
+        cy.url().should('include', '/signin')
+    }
+
+
 
 }
 export default RegisterPage;
