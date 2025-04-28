@@ -32,9 +32,26 @@ class RegisterPage {
         cy.get(selectors.signUpBotton).click();
     }
 
+    registerNewUserFail(firstname, lastname, username, password, confirmPassword, signbutton) {
+        const selectors = this.selectorList();
+
+    
+        cy.get(selectors.fieldFirstName).type(firstname);
+        cy.get(selectors.fieldLastName).type(lastname);
+        cy.get(selectors.fieldUsername).type(username);
+        cy.get(selectors.fieldPassword).type(password);
+        cy.get(selectors.fieldConfirmPassword).type(confirmPassword);
+    
+    }
+
     checkSignUpButtonVisibility(){
         const selectors = this.selectorList();
         cy.get(selectors.signUpBotton).should('be.visible');
+    }
+
+    checkSignUpButtonNotVisibility(){
+        const selectors = this.selectorList();
+        cy.get(selectors.signUpBotton).should('be.disabled');
     }
 
     checkRegisterSuccess() {

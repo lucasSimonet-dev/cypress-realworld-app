@@ -18,8 +18,7 @@ describe('Registro de Usuário', () => {
     it('Não deve permitir o registro de usuário com campos obrigatórios em branco', () => {
       const { firstName, lastName, username, password, confirmPassword } = userData.RegisterFail;
       registerPage.acessRegisterPage();
-      registerPage.registerNewUserSucess(firstName, lastName, username, password, confirmPassword);
-
-      registerPage.checkSignUpButtonVisibility();
+      registerPage.registerNewUserFail(firstName, lastName, username, password, confirmPassword);
+      registerPage.checkSignUpButtonNotVisibility();
     });
   });
