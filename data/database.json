@@ -74,28 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "Wz8x7_p5u",
-      "uuid": "51243050-f471-484e-bf9c-ff5c4a408ac3",
-      "firstName": "Lucas",
-      "lastName": "Simonet",
-      "username": "lucas123",
-      "password": "$2a$10$BHQlXjCjeiISzKXNH0UQDeU4z3DnmOihR56ej6Nf9DH3ZX5FauCGS",
-      "balance": 0,
-      "createdAt": "2025-04-28T02:05:54.713Z",
-      "modifiedAt": "2025-04-28T02:05:54.713Z"
-    },
-    {
-      "id": "vV-huUpjL",
-      "uuid": "b8c830d4-de32-428d-9337-1dfa5fdbb4fa",
-      "firstName": "Lucas",
-      "lastName": "Simonet",
-      "username": "lucas123",
-      "password": "$2a$10$eEME/DMoBEuId1NH28IjAOs0fpXPWZDXw24U/6LWgfdYe1IM1T2U2",
-      "balance": 0,
-      "createdAt": "2025-04-28T02:06:02.642Z",
-      "modifiedAt": "2025-04-28T02:06:02.642Z"
     }
   ],
   "contacts": [
