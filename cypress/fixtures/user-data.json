@@ -24,6 +24,16 @@
   "SendMoneySuccess": {
     "amount": "1",
     "note": "money"
+  },
+  "UserWithoutBalance": {
+    "username": "Arvilla_Hegmann",
+    "password": "s3cret"
+  },
+  "SendMoneyWithoutBalance": {
+    "amount": "999999",
+    "note": "Teste de saldo insuficiente"
   }
-
 }
+
+
+

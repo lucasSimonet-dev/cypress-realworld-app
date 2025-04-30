@@ -16,20 +16,19 @@ class TransferPage {
 
         }
 
-      SendMoneySucess(amount, note) {
-        const selectors = this.selectorList();
-        cy.get(selectors.tabSelector).click();
-        cy.get(selectors.newTransactionButton).click();
-        cy.get(selectors.listContacts).eq(0).click();
-        cy.get(selectors.fieldAmount).type(amount);
-        cy.get(selectors.fieldAddNote).type(note);
-        cy.get(selectors.buttonSubmitPayment).should('not.be.disabled').click();
-        cy.get(selectors.checkSendMoneySuccess).should('be.visible');
-
-      }
-
-
-    
+        sendMoney(amount, note, expectSuccess = true) {
+          const selectors = this.selectorList();
+          cy.get(selectors.tabSelector).click();
+          cy.get(selectors.newTransactionButton).click();
+          cy.get(selectors.listContacts).eq(0).click();
+          cy.get(selectors.fieldAmount).type(amount);
+          cy.get(selectors.fieldAddNote).type(note);
+          cy.get(selectors.buttonSubmitPayment).should('not.be.disabled').click();
+        
+          if (expectSuccess) {
+            cy.get(selectors.checkSendMoneySuccess).should('be.visible');
+          }
+        }
 
       checkHomePage() {
         cy.get(this.selectorList().homepage).should('be.visible');
