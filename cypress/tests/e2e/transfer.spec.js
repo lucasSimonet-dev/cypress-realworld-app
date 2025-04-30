@@ -14,7 +14,8 @@ beforeEach(() => {
 });
 
     it('Deve enviar dinheiro com sucesso', () => {
-
+      const {amount, note} = userData.SendMoneySuccess;
+      transferPage.SendMoneySucess(amount, note);
     });
   });
 

@@ -1,15 +1,38 @@
 class TransferPage {
     selectorList() {
         const selectors = {
-            tabSelector: ".css-u7g6hc-MuiButtonBase-root-MuiTab-root",
+            homepage: ".css-u7g6hc-MuiButtonBase-root-MuiTab-root",
+            tabSelector: "[href='/transaction/new']",
+            newTransactionButton: ".NavBar-newTransactionButton",
+            listContacts: ".css-1p823my-MuiListItem-root",
+            fieldAmount: "[name='amount']",
+            fieldAddNote: "[placeholder='Add a note'][required=''][type='text'][value='']",
+            buttonSubmitPayment: "[data-test='transaction-create-submit-payment']",
+            checkSendMoneySuccess: "[data-test='new-transaction-create-another-transaction']"
 
 
         }   
         return selectors;
 
         }
+
+      SendMoneySucess(amount, note) {
+        const selectors = this.selectorList();
+        cy.get(selectors.tabSelector).click();
+        cy.get(selectors.newTransactionButton).click();
+        cy.get(selectors.listContacts).eq(0).click();
+        cy.get(selectors.fieldAmount).type(amount);
+        cy.get(selectors.fieldAddNote).type(note);
+        cy.get(selectors.buttonSubmitPayment).should('not.be.disabled').click();
+        cy.get(selectors.checkSendMoneySuccess).should('be.visible');
+
+      }
+
+
+    
+
       checkHomePage() {
-        cy.get(this.selectorList().tabSelector).should('be.visible');
+        cy.get(this.selectorList().homepage).should('be.visible');
       }
 
     }

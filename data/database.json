@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 150953,
+      "balance": 150453,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -26,7 +26,7 @@
       "phoneNumber": "410-786-2112",
       "avatar": "https://avatars.dicebear.com/api/human/GjWovtg2hr.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 93026,
+      "balance": 1626,
       "createdAt": "2023-04-23T13:52:10.979Z",
       "modifiedAt": "2024-03-07T09:07:46.709Z"
     },
@@ -74,6 +74,28 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "Glah0PVx2",
+      "uuid": "073f130d-ae11-44de-bede-53d2fc4dee5a",
+      "firstName": "Lucas",
+      "lastName": "Simonet",
+      "username": "lucas123",
+      "password": "$2a$10$V3wZD7sMlNKmlP2kB/HQROeYvnPf1xP8qUIWlGD689pjipS9vflDu",
+      "balance": 92900,
+      "createdAt": "2025-04-29T23:18:33.610Z",
+      "modifiedAt": "2025-04-29T23:18:33.610Z"
+    },
+    {
+      "id": "ih59c-6lT",
+      "uuid": "cc1b60f0-8ce6-41e3-8387-a2027ba63f31",
+      "firstName": "Lucas",
+      "lastName": "Simonet",
+      "username": "lucas123",
+      "password": "$2a$10$gMs5csvU0kaz8.OnI9imveaBSnPdmBXXxU7bKd7CovJ/5hK786JZ6",
+      "balance": 1000094300,
+      "createdAt": "2025-04-29T23:18:34.151Z",
+      "modifiedAt": "2025-04-29T23:18:34.151Z"
     }
   ],
   "contacts": [
@@ -253,6 +275,28 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "r0T8_wmWi",
+      "uuid": "21768e68-f939-4cf5-a971-ee858372ac18",
+      "userId": "Glah0PVx2",
+      "bankName": "12321312321312",
+      "accountNumber": "111111111111",
+      "routingNumber": "aaaaaaaaa",
+      "isDeleted": true,
+      "createdAt": "2025-04-29T23:19:12.814Z",
+      "modifiedAt": "2025-04-29T23:19:12.814Z"
+    },
+    {
+      "id": "niGSz4x7_",
+      "uuid": "9a143fc2-26e4-4e9e-8474-76f99aa5f587",
+      "userId": "Glah0PVx2",
+      "bankName": "123456789",
+      "accountNumber": "123456789",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2025-04-30T00:10:44.808Z",
+      "modifiedAt": "2025-04-30T00:10:44.808Z"
     }
   ],
   "transactions": [
@@ -9855,6 +9899,310 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "v1aTPdF06",
+      "uuid": "39b9a556-3811-4cc8-be06-af99b417d95b",
+      "amount": 1000000000,
+      "description": "g",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "pending",
+      "requestStatus": "pending",
+      "createdAt": "2025-04-30T00:01:38.805Z",
+      "modifiedAt": "2025-04-30T00:01:38.805Z"
+    },
+    {
+      "id": "qYEDrM71p",
+      "uuid": "a54668cd-9e80-4c8f-8325-522409b1a664",
+      "amount": 1000000000,
+      "description": "20000",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:01:51.936Z",
+      "modifiedAt": "2025-04-30T00:01:51.936Z"
+    },
+    {
+      "id": "8pwAxR6F-",
+      "uuid": "6bd1fb88-9c86-44ae-ab3a-eeeed2424f56",
+      "amount": 80000,
+      "description": "800",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:03:12.220Z",
+      "modifiedAt": "2025-04-30T00:03:12.220Z"
+    },
+    {
+      "id": "cTsiEp5cU",
+      "uuid": "c1ba5ac6-50f3-4726-8dd3-eb509abb9644",
+      "amount": 1000,
+      "description": "10",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:04:45.892Z",
+      "modifiedAt": "2025-04-30T00:04:45.892Z"
+    },
+    {
+      "id": "yx_Y-nR1p",
+      "uuid": "9c16c923-af86-4ab2-9c1e-d61a746a97e1",
+      "amount": 1000,
+      "description": "10101001010101",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:10:20.694Z",
+      "modifiedAt": "2025-04-30T00:10:20.694Z"
+    },
+    {
+      "id": "xsyET_d1F",
+      "uuid": "6685004c-fe5c-4fdd-9dfd-740f6eed37db",
+      "amount": 12300,
+      "description": "123",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:11:03.199Z",
+      "modifiedAt": "2025-04-30T00:11:03.199Z"
+    },
+    {
+      "id": "Kn71tRkqy",
+      "uuid": "61d71c1d-1c0c-4e10-ae9c-177f228f752a",
+      "amount": 1000,
+      "description": "123",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:11:18.980Z",
+      "modifiedAt": "2025-04-30T00:11:18.980Z"
+    },
+    {
+      "id": "3hXjVsrSR",
+      "uuid": "f846fa6d-eb14-4186-9d4d-57fd32680edb",
+      "amount": 93000,
+      "description": "123",
+      "receiverId": "Glah0PVx2",
+      "senderId": "GjWovtg2hr",
+      "privacyLevel": "private",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:14:38.163Z",
+      "modifiedAt": "2025-04-30T00:14:38.163Z"
+    },
+    {
+      "id": "8hGHfWR3e",
+      "uuid": "3f5cd8bc-3047-46f5-9dcf-14d260b14561",
+      "amount": 0,
+      "description": "123",
+      "receiverId": "ih59c-6lT",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:15:33.946Z",
+      "modifiedAt": "2025-04-30T00:15:33.946Z"
+    },
+    {
+      "id": "cdjsRsA4q",
+      "uuid": "3f7010f1-8974-42f7-859c-8a05ba9152da",
+      "amount": 100,
+      "description": "1",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "Glah0PVx2",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:16:08.914Z",
+      "modifiedAt": "2025-04-30T00:16:08.914Z"
+    },
+    {
+      "id": "dwHhBBr8J",
+      "uuid": "af3b27d1-1c95-4570-87c3-c3ecd28feca6",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:49:17.590Z",
+      "modifiedAt": "2025-04-30T00:49:17.590Z"
+    },
+    {
+      "id": "SAvXQ2Eoq",
+      "uuid": "d0bffccf-919f-4f5a-93b6-cab48205eac1",
+      "amount": 100,
+      "description": "1",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:49:38.192Z",
+      "modifiedAt": "2025-04-30T00:49:38.192Z"
+    },
+    {
+      "id": "2_VTfqBqk",
+      "uuid": "198f9cf1-f33a-4250-b04e-58d6498a9f9f",
+      "amount": 100,
+      "description": "1",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:50:04.109Z",
+      "modifiedAt": "2025-04-30T00:50:04.109Z"
+    },
+    {
+      "id": "p5aXx9cXV",
+      "uuid": "2972e7c0-e93d-499d-a0e0-2c732b80dbce",
+      "amount": 100,
+      "description": "1",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:50:41.949Z",
+      "modifiedAt": "2025-04-30T00:50:41.949Z"
+    },
+    {
+      "id": "dwRGYdcT2",
+      "uuid": "13cf183b-229d-47f1-a6a1-d1ad9f3ddb9c",
+      "amount": 100,
+      "description": "1",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:50:58.509Z",
+      "modifiedAt": "2025-04-30T00:50:58.509Z"
+    },
+    {
+      "id": "8voVfbNf7",
+      "uuid": "f320898c-9417-45aa-bf4d-d7ac90cd4626",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:54:13.620Z",
+      "modifiedAt": "2025-04-30T00:54:13.620Z"
+    },
+    {
+      "id": "ikhM13WAu",
+      "uuid": "b3dc0d11-9c07-420a-b2ca-dce31eee5ad7",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:55:26.083Z",
+      "modifiedAt": "2025-04-30T00:55:26.083Z"
+    },
+    {
+      "id": "JOUhVacrV",
+      "uuid": "b9eab69e-3340-43e9-a253-6577bc6fc608",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T00:58:12.090Z",
+      "modifiedAt": "2025-04-30T00:58:12.090Z"
+    },
+    {
+      "id": "4R01vk1Ic",
+      "uuid": "b94568ad-4545-4082-992f-7e7115859b49",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:00:53.418Z",
+      "modifiedAt": "2025-04-30T01:00:53.418Z"
+    },
+    {
+      "id": "cfmoB4Wj6",
+      "uuid": "31d7aac9-4398-47d9-a801-0eb592ee6912",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:02:48.966Z",
+      "modifiedAt": "2025-04-30T01:02:48.966Z"
+    },
+    {
+      "id": "tXps2jh5g",
+      "uuid": "2819c0aa-515b-4dc9-86c0-969db8651169",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:05:00.947Z",
+      "modifiedAt": "2025-04-30T01:05:00.947Z"
+    },
+    {
+      "id": "B5kPjMar2",
+      "uuid": "ba6d857f-1a40-4d2a-8784-87f7f72e4ea4",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:05:23.984Z",
+      "modifiedAt": "2025-04-30T01:05:23.984Z"
+    },
+    {
+      "id": "3nnPL1URd",
+      "uuid": "78249875-cdd0-40a5-8cc7-d4c5af4fa7a5",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:05:47.666Z",
+      "modifiedAt": "2025-04-30T01:05:47.666Z"
+    },
+    {
+      "id": "rojseFNn6",
+      "uuid": "6a2c414b-752e-486d-9bb0-fab2dccbe50f",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:06:58.607Z",
+      "modifiedAt": "2025-04-30T01:06:58.607Z"
+    },
+    {
+      "id": "NaweDKCKu",
+      "uuid": "8a50c285-72ab-495b-b66e-5f01a971d1fd",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:07:13.955Z",
+      "modifiedAt": "2025-04-30T01:07:13.955Z"
+    },
+    {
+      "id": "SRvvF-l9d",
+      "uuid": "7385f7e0-2c8e-4507-8d3a-d09db95f27b4",
+      "amount": 100,
+      "description": "money",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-04-30T01:07:44.822Z",
+      "modifiedAt": "2025-04-30T01:07:44.822Z"
     }
   ],
   "likes": [
@@ -10431,6 +10779,266 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "lAA10txAJh",
+      "uuid": "dba773fd-d102-43ac-a825-cdfeff5585fa",
+      "userId": "ih59c-6lT",
+      "transactionId": "v1aTPdF06",
+      "status": "requested",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:01:38.808Z",
+      "modifiedAt": "2025-04-30T00:01:38.808Z"
+    },
+    {
+      "id": "8_R7ircP7I",
+      "uuid": "1f563f4c-81d5-4d0e-978c-f9a60f567e13",
+      "userId": "ih59c-6lT",
+      "transactionId": "qYEDrM71p",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:01:51.953Z",
+      "modifiedAt": "2025-04-30T00:01:51.953Z"
+    },
+    {
+      "id": "bjhzK1norw",
+      "uuid": "2b2b43c2-d03b-4acc-9688-d739c3acb392",
+      "userId": "ih59c-6lT",
+      "transactionId": "8pwAxR6F-",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:03:12.245Z",
+      "modifiedAt": "2025-04-30T00:03:12.245Z"
+    },
+    {
+      "id": "ZlkT9ppZ-H",
+      "uuid": "14d25dea-4ee0-41c0-ad40-850514533a38",
+      "userId": "uBmeaz5pX",
+      "transactionId": "cTsiEp5cU",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:04:45.906Z",
+      "modifiedAt": "2025-04-30T00:04:45.906Z"
+    },
+    {
+      "id": "luooW8MA4B",
+      "uuid": "63bbbae5-a0ac-4282-8d66-8a677d1d66a6",
+      "userId": "ih59c-6lT",
+      "transactionId": "yx_Y-nR1p",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:10:20.710Z",
+      "modifiedAt": "2025-04-30T00:10:20.710Z"
+    },
+    {
+      "id": "KQ5Ba-7qkb",
+      "uuid": "538dbc1f-8ef5-4fce-8a65-99fcb3f87353",
+      "userId": "ih59c-6lT",
+      "transactionId": "xsyET_d1F",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:11:03.213Z",
+      "modifiedAt": "2025-04-30T00:11:03.213Z"
+    },
+    {
+      "id": "YMxbI-T4ji",
+      "uuid": "53a9048c-2e20-49e0-b151-cf0ca9cb6e5b",
+      "userId": "ih59c-6lT",
+      "transactionId": "Kn71tRkqy",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:11:18.992Z",
+      "modifiedAt": "2025-04-30T00:11:18.992Z"
+    },
+    {
+      "id": "1XYJ2703QM",
+      "uuid": "ae49f4f7-4330-4073-aecb-347538423998",
+      "userId": "Glah0PVx2",
+      "transactionId": "3hXjVsrSR",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:14:38.177Z",
+      "modifiedAt": "2025-04-30T00:14:38.177Z"
+    },
+    {
+      "id": "FAGKtAZZUX",
+      "uuid": "7a0aee33-0006-4477-96f2-0aa76134bdd5",
+      "userId": "ih59c-6lT",
+      "transactionId": "8hGHfWR3e",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:15:33.956Z",
+      "modifiedAt": "2025-04-30T00:15:33.956Z"
+    },
+    {
+      "id": "8bFwviZYTl",
+      "uuid": "c1e52a85-5e0a-4269-88e7-e6af18c04d97",
+      "userId": "uBmeaz5pX",
+      "transactionId": "cdjsRsA4q",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:16:08.927Z",
+      "modifiedAt": "2025-04-30T00:16:08.927Z"
+    },
+    {
+      "id": "H0qSE7yCJn",
+      "uuid": "635f2285-4dd6-4ad0-8e75-34a73245e0f7",
+      "userId": "GjWovtg2hr",
+      "transactionId": "dwHhBBr8J",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:49:17.603Z",
+      "modifiedAt": "2025-04-30T00:49:17.603Z"
+    },
+    {
+      "id": "KMdCoPEmN9",
+      "uuid": "09e9a315-8f10-4129-9148-8b83b33ea986",
+      "userId": "GjWovtg2hr",
+      "transactionId": "SAvXQ2Eoq",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:49:38.205Z",
+      "modifiedAt": "2025-04-30T00:49:38.205Z"
+    },
+    {
+      "id": "dIRsODRbJd",
+      "uuid": "6a964c19-2b41-4e0c-8439-53b10b5bbe60",
+      "userId": "GjWovtg2hr",
+      "transactionId": "2_VTfqBqk",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:50:04.124Z",
+      "modifiedAt": "2025-04-30T00:50:04.124Z"
+    },
+    {
+      "id": "HJgAAcU4Ei",
+      "uuid": "f8a731c9-9036-4297-9ab8-7b4ba65295d0",
+      "userId": "GjWovtg2hr",
+      "transactionId": "p5aXx9cXV",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:50:41.961Z",
+      "modifiedAt": "2025-04-30T00:50:41.961Z"
+    },
+    {
+      "id": "9nHRjAtnTy",
+      "uuid": "69b3ec10-9748-4e99-9bef-3ad1b3bd608a",
+      "userId": "GjWovtg2hr",
+      "transactionId": "dwRGYdcT2",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:50:58.521Z",
+      "modifiedAt": "2025-04-30T00:50:58.521Z"
+    },
+    {
+      "id": "T5uRTVzZgB",
+      "uuid": "d10e38f9-a809-439a-ad09-ef870f60dea3",
+      "userId": "GjWovtg2hr",
+      "transactionId": "8voVfbNf7",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:54:13.633Z",
+      "modifiedAt": "2025-04-30T00:54:13.633Z"
+    },
+    {
+      "id": "pchMiODsQb",
+      "uuid": "e4693fc8-843e-4836-8c14-dc348c245ad1",
+      "userId": "GjWovtg2hr",
+      "transactionId": "ikhM13WAu",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:55:26.094Z",
+      "modifiedAt": "2025-04-30T00:55:26.094Z"
+    },
+    {
+      "id": "eT_clKQoKz",
+      "uuid": "e24d5d07-4fe2-44bc-a181-60a3897d34be",
+      "userId": "GjWovtg2hr",
+      "transactionId": "JOUhVacrV",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T00:58:12.103Z",
+      "modifiedAt": "2025-04-30T00:58:12.103Z"
+    },
+    {
+      "id": "0qJl67coJ4",
+      "uuid": "5af636aa-8b8e-48cb-af07-d2baff6b0bde",
+      "userId": "GjWovtg2hr",
+      "transactionId": "4R01vk1Ic",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:00:53.430Z",
+      "modifiedAt": "2025-04-30T01:00:53.430Z"
+    },
+    {
+      "id": "XgPQlriUxT",
+      "uuid": "b9169a99-c348-4ebf-bab5-0a95469cc81f",
+      "userId": "GjWovtg2hr",
+      "transactionId": "cfmoB4Wj6",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:02:48.977Z",
+      "modifiedAt": "2025-04-30T01:02:48.977Z"
+    },
+    {
+      "id": "uzm8QGlGAj",
+      "uuid": "f47e6ccd-e2fd-4e1d-8762-21064ed3fbfc",
+      "userId": "GjWovtg2hr",
+      "transactionId": "tXps2jh5g",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:05:00.960Z",
+      "modifiedAt": "2025-04-30T01:05:00.960Z"
+    },
+    {
+      "id": "CBtFVVOxxB",
+      "uuid": "766f88d4-6563-41fb-848e-50f089e73476",
+      "userId": "GjWovtg2hr",
+      "transactionId": "B5kPjMar2",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:05:23.995Z",
+      "modifiedAt": "2025-04-30T01:05:23.995Z"
+    },
+    {
+      "id": "0QNzCBnzkc",
+      "uuid": "adcbb792-35d6-4ed2-9f56-8d6d5e69c3d5",
+      "userId": "GjWovtg2hr",
+      "transactionId": "3nnPL1URd",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:05:47.678Z",
+      "modifiedAt": "2025-04-30T01:05:47.678Z"
+    },
+    {
+      "id": "8jBBn1-0W5",
+      "uuid": "58f8bec0-3429-4f34-9071-041441de0b2f",
+      "userId": "GjWovtg2hr",
+      "transactionId": "rojseFNn6",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:06:58.621Z",
+      "modifiedAt": "2025-04-30T01:06:58.621Z"
+    },
+    {
+      "id": "jAa-m1gyY4",
+      "uuid": "cd5cee4e-c6b5-46ce-af2c-64f5340f7e7e",
+      "userId": "GjWovtg2hr",
+      "transactionId": "NaweDKCKu",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:07:13.969Z",
+      "modifiedAt": "2025-04-30T01:07:13.969Z"
+    },
+    {
+      "id": "59_huel8lh",
+      "uuid": "b612e45c-9d42-43e1-963d-1faa2a0dd373",
+      "userId": "GjWovtg2hr",
+      "transactionId": "SRvvF-l9d",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-30T01:07:44.833Z",
+      "modifiedAt": "2025-04-30T01:07:44.833Z"
     }
   ],
   "banktransfers": [
@@ -10983,6 +11591,66 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
+    },
+    {
+      "id": "NbCW-uz3I3",
+      "uuid": "e8c33a62-70b6-4dc7-a8d5-9f5d5cd1dee5",
+      "userId": "Glah0PVx2",
+      "amount": 1000000000,
+      "transactionId": "qYEDrM71p",
+      "type": "withdrawal",
+      "createdAt": "2025-04-30T00:01:51.941Z",
+      "modifiedAt": "2025-04-30T00:01:51.941Z"
+    },
+    {
+      "id": "_BLylpw2NV",
+      "uuid": "be2379ed-5354-4497-a0eb-0b289d23b6d2",
+      "userId": "Glah0PVx2",
+      "amount": 80000,
+      "transactionId": "8pwAxR6F-",
+      "type": "withdrawal",
+      "createdAt": "2025-04-30T00:03:12.225Z",
+      "modifiedAt": "2025-04-30T00:03:12.225Z"
+    },
+    {
+      "id": "dkTdJ4hQ8Z",
+      "uuid": "a946f9e2-2c94-4ecd-b6e9-6469f7baf71a",
+      "userId": "Glah0PVx2",
+      "amount": 1000,
+      "transactionId": "cTsiEp5cU",
+      "type": "withdrawal",
+      "createdAt": "2025-04-30T00:04:45.895Z",
+      "modifiedAt": "2025-04-30T00:04:45.895Z"
+    },
+    {
+      "id": "-OHtkzxOjX",
+      "uuid": "146c28e0-cb93-4ca5-bbcc-f9bfd0152f27",
+      "userId": "Glah0PVx2",
+      "amount": 1000,
+      "transactionId": "yx_Y-nR1p",
+      "type": "withdrawal",
+      "createdAt": "2025-04-30T00:10:20.697Z",
+      "modifiedAt": "2025-04-30T00:10:20.697Z"
+    },
+    {
+      "id": "Tpy_lUamkg",
+      "uuid": "6d836d9c-6b22-4b64-9b61-d1019afcbecc",
+      "userId": "Glah0PVx2",
+      "amount": 12300,
+      "transactionId": "xsyET_d1F",
+      "type": "withdrawal",
+      "createdAt": "2025-04-30T00:11:03.202Z",
+      "modifiedAt": "2025-04-30T00:11:03.202Z"
+    },
+    {
+      "id": "QYyBs6uDKF",
+      "uuid": "284e7922-598d-4325-a733-b416b040029d",
+      "userId": "Glah0PVx2",
+      "amount": 1000,
+      "transactionId": "Kn71tRkqy",
+      "type": "withdrawal",
+      "createdAt": "2025-04-30T00:11:18.983Z",
+      "modifiedAt": "2025-04-30T00:11:18.983Z"
     }
   ]
 }

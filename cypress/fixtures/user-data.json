@@ -20,6 +20,10 @@
     "username": "lucas1233",
     "password": "senha@123",
     "confirmPassword": "senha@12"
+  },
+  "SendMoneySuccess": {
+    "amount": "1",
+    "note": "money"
   }
 
 }
