@@ -38,6 +38,7 @@ class LoginPage {
         cy.get(this.selectorsList().wrongLoginMessage).should('be.visible');
 
     }
+
 }
 
 export default LoginPage;
