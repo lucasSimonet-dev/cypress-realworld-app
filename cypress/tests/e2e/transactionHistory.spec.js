@@ -19,6 +19,12 @@ describe('Visualizar histórico de transações com sucesso', () => {
 
   describe('Tentar visualizar o histórico de transações sem transações anteriores', () => {
     it('Deve exibir uma mensagem indicando que o usuário não possui transações anteriores', () => {
-      // Implemente os passos do caso de teste aqui
+        cy.visit('/login');
+        loginPage.login(userData.UserWithoutTransactionHistoric.username,userData.UserWithoutTransactionHistoric.password);
+        loginPage.checkLoginSuccess();
+        transactionHistoryPage.checkNoTransitionForTwoTabs();
+
+
+
     });
   });

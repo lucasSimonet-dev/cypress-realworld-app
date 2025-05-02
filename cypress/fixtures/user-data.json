@@ -32,7 +32,12 @@
   "SendMoneyWithoutBalance": {
     "amount": "999999",
     "note": "Teste de saldo insuficiente"
-  }
+  },
+  "UserWithoutTransactionHistoric": {
+    "username": "lucasfw",
+    "password": "lucasfw"
+
+}
 }
 
 
